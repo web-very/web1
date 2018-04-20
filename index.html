@@ -3,23 +3,65 @@
 <head>
     <title>WEB1 - Welcome</title>
     <meta charset="utf-8">
+    <!-- Global site tag (gtag.js) - Google Analytics 방문자 확인-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111610945-2"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-111610945-2');
+    </script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1><a href="index.html">WEB</a></h1>
-    <ol>
-        <li><a href="1.html">HTML</a></li>
-        <li><a href="2.html">CSS</a></li>
-        <li><a href="3.html">JavaScript</a></li>
-    </ol>
-    <h2>WEB</h2>
-    
-    <p>
-            to the general public on the Internet in August 1991.
+    <h1><a href="index.html" >WEB</a></h1>
+    <div id="grid">
+        <ol>
+            <li><a href="1.html">HTML</a></li>
+            <li><a href="2.html">CSS</a></li>
+            <li><a href="3.html">JavaScript</a></li>
+        </ol>
 
-            The World Wide Web has been central to the development of the Information Age and is the primary tool billions of people use to interact on the Internet.[4][5][6] Web pages are primarily text documents formatted and annotated with Hypertext Markup Language (HTML).[7] In addition to formatted text, web pages may contain images, video, audio, and software components that are rendered in the user's web browser as coherent pages of multimedia content.
+        <!-- <h1><a href="index.html"><font color="red">WEB</font></a></h1>
+        <ol>
+            <li><a href="1.html"><font color="red">HTML</font></a></li>
+            <li><a href="2.html"><font color="red">CSS</font></a></li>
+            <li><a href="3.html"><font color="red">JavaScript</font></a></li>
+        </ol> -->
+        <div id="article">
+            <h2>WEB</h2>
+            <p>
+                to the general public on the Internet in August 1991.
+                The World Wide Web has been central to the development of the Information Age and is the primary tool billions of people use to interact on the Internet.[4][5][6] Web pages are primarily text documents formatted and annotated with Hypertext Markup Language (HTML).[7] In addition to formatted text, web pages may contain images, video, audio, and software components that are rendered in the user's web browser as coherent pages of multimedia content.
+                Embedded hyperlinks permit users to navigate between web pages. Multiple web pages with a common theme, a common domain name, or both, make up a website. Website content can largely be provided by the publisher, or interactively where users contribute content or the content depends upon the users or their actions. Websites may be mostly informative, primarily for entertainment, or largely for commercial, governmental, or non-governmental organisational purposes.
+            </p>
+        </div>
+    </div>
+    <!-- 댓글 기능 -->
+    <!-- <p>
+            <div id="disqus_thread"></div>
+            <script>
             
-            Embedded hyperlinks permit users to navigate between web pages. Multiple web pages with a common theme, a common domain name, or both, make up a website. Website content can largely be provided by the publisher, or interactively where users contribute content or the content depends upon the users or their actions. Websites may be mostly informative, primarily for entertainment, or largely for commercial, governmental, or non-governmental organisational purposes.
-    </p>
+            /**
+            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+            /*
+            var disqus_config = function () {
+            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            */
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://web1-b4arbtiahe.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date()); 
+            (d.head || d.body).appendChild(s);
+            })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                                        
+    </p> -->
 </body>
 </html>
